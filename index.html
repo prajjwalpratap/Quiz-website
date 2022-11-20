@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Quiz Page</title>
+</head>
+<body>
+  <div class="main-div">
+    <div class="inner-div">
+      <div class="quiz-box">
+        <div id="Quiz">
+          <h1>General Quiz Questions</h1>
+          <div class="header-quiz">
+            <p id="progress">Question  1 of 10</p>
+            <p id="countdown">10</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="question" id="ques">Questions Starts</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="ans1" class="answer">
+          <label for="ans1" id="option1">Anwere option</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="ans2" class="answer">
+          <label for="ans2" id="option2">Anwere option</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="ans3" class="answer">
+          <label for="ans3" id="option3">Anwere option</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="ans4" class="answer">
+          <label for="ans4" id="option4">Anwere option</label>
+        </li>
+      </ul>
+      <!-- <button id="next"> Next</button> -->
+      <div id="Buttons">
+        <button id ="previous">Previous</button>
+        <button id="next">Next</button>
+      <button id="submit" >Submit</button>
+      </div>
+      <!-- <button id="next">Next</button>
+      <button id="submit" >Submit</button>
+      <button id ="previous">Previous</button> -->
+        <div id="showscore" class="socrearea">
+        </div>
+    </div>
+  </div>
+  <script src="Script.js"></script>
+</body>
+</html>
